@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="212dp"
+        android:layout_height="72dp"
+        android:text="Ingresar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:backgroundTint="@color/colorAccent"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/o9an7gwseeaaqg5mseyjiq_521424d79698bfb8722baa94062502d9_revisionporpares1_curso3"
+        tools:srcCompat="@drawable/o9an7gwseeaaqg5mseyjiq_521424d79698bfb8722baa94062502d9_revisionporpares1_curso3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
